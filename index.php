@@ -42,5 +42,12 @@ class Movie {
     // FINE Definizione metodi setter
 }
 
+// Istanza di 2 oggetti "Movie"
+$movie1 = new Movie("Perfect Blue", "Satoshi Kon", 1998);
+$movie2 = new Movie("Inception", "Christopher Nolan", 2010);
+
+// Stampo a schermo i valori delle relative proprietà 
+echo $movie1->getTitle() . " (" . $movie1->getYear() . ") - Directed by: " . $movie1->getDirector() . "<br>";
+echo $movie2->getTitle() . " (" . $movie2->getYear() . ") - Directed by: " . $movie2->getDirector();
 
 ?>
